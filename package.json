@@ -17,7 +17,6 @@
   },
   "keywords": [],
   "author": "Nikos Panagopoulos",
-  "license": "ISC",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^5.2.6",
