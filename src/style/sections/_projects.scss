@@ -10,6 +10,9 @@
   }
 
   .project-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     margin-bottom: 15rem;
 
     @include respond(phone) {
@@ -50,8 +53,10 @@
     }
 
     &__image {
-      width: 90%;
+      width: 35em;
       margin: 0 auto;
+      justify-content:space-between;
+      
 
       @include respond(tab-land) {
         width: 100%;
